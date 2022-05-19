@@ -45,7 +45,7 @@ Add-EsxSoftwareDepot .\ESXi-7.0.1-16850804-standard.zip
 ##############################################################################
 
 # Get community network driver 
-Invoke-WebRequest -Uri https://download3.vmware.com/software/vmw-tools/community-network-driver/Net-Community-Driver_1.2.0.0-1vmw.700.1.0.15843807_18028830.zip -OutFile Net-Community-Driver_1.2.0.0-1vmw.700.1.0.15843807_18028830.zip
+Invoke-WebRequest -Uri https://download3.vmware.com/software/vmw-tools/community-network-driver/Net-Community-Driver_1.2.7.0-1vmw.700.1.0.15843807_19480755.zip -OutFile Net-Community-Driver_1.2.7.0-1vmw.700.1.0.15843807_19480755.zip
 
 # Get USB NIC driver
 Invoke-WebRequest -Uri https://download3.vmware.com/software/vmw-tools/USBNND/ESXi701-VMKUSB-NIC-FLING-40599856-component-17078334.zip -OutFile ESXi701-VMKUSB-NIC-FLING-40599856-component-17078334.zip
