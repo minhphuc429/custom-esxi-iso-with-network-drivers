@@ -55,7 +55,7 @@ Invoke-WebRequest -Uri https://download3.vmware.com/software/vmw-tools/USBNND/ES
 ##############################################################################
 
 # Add community network driver
-Add-EsxSoftwareDepot .\Net-Community-Driver_1.2.0.0-1vmw.700.1.0.15843807_18028830.zip
+Add-EsxSoftwareDepot .\Net-Community-Driver_1.2.7.0-1vmw.700.1.0.15843807_19480755.zip
 
 # Add USB NIC driver
 Add-EsxSoftwareDepot .\ESXi701-VMKUSB-NIC-FLING-40599856-component-17078334.zip
@@ -66,7 +66,7 @@ Add-EsxSoftwareDepot .\ESXi701-VMKUSB-NIC-FLING-40599856-component-17078334.zip
 ##############################################################################
 
 # Create new, custom profile
-New-EsxImageProfile -CloneProfile "ESXi-7.0.1-16850804-standard" -name "ESXi-7.0.1-16850804-standard-ASRock" -Vendor "jonamiki.com"
+New-EsxImageProfile -CloneProfile "ESXi-7.0.1-16850804-standard" -name "ESXi-7.0.1-16850804-standard-ASRock" -Vendor "nguyenminhphuc.com"
 
 # Optionally remove existing driver package (example for ne1000)
 #Remove-EsxSoftwarePackage -ImageProfile "ESXi-7.0.1-16850804-standard-ASRock" -SoftwarePackage "ne1000"
